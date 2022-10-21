@@ -1069,9 +1069,53 @@ h4 {
     color: #000000!important;
 }
 
-img
+.ancienne-image
 {
-    max-width: 1920px;
-    max-height: 1080px;
+    font-size: 20px;
+    line-height: normal;
+    margin: 0;
+}
+.auteur-citation
+{
+    font-size: 17px;
+    line-height: normal;
+}
 
+.citation-box
+{
+    max-width: 567px;
+    max-height: 145px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.italic
+{
+    font-style: italic;
+}
+
+.title-box
+{
+    max-width: 634px;
+    max-height: 75px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: auto;
+}
+
+.title2-box
+{
+    max-width: 476px;
+    max-height: 99px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: auto;
+}
+
+.icon-md
+{
+    width: 40px;
+    height: 40px;
 }
