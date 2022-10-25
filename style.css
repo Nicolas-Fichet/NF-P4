@@ -786,7 +786,7 @@ h4 {
 .tc-white {
     color: #F3976C!important;           /*couleur du texte de la page 2*/
 }
-
+/*
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #FFFFFF!important;
@@ -796,7 +796,7 @@ h4 {
     background: #c27956!important;
     color: #FFFFFF!important;
 }
-
+*/
 .ltc-white {
     color: #FFFFFF!important;
 }
@@ -1055,16 +1055,11 @@ h4 {
 
 
 .tc-black {
-    color: #000000!important;           /*couleur du texte de la page 2*/
+    color: #000000!important;           /*couleur texte*/
 }
 
 
-.black {
-    color: #000000!important;
-}
-
-
-.d-bloc a .icon-black
+.d-bloc a .icon-md      /*couleur liens réseaux sociaux*/
 {
     color: #000000!important;
 }
@@ -1081,7 +1076,7 @@ h4 {
     line-height: normal;
 }
 
-.citation-box
+.citation-box   /*Dimension image 1*/
 {
     max-width: 567px;
     max-height: 145px;
@@ -1091,12 +1086,12 @@ h4 {
     margin-right: auto;
 }
 
-.italic
+.italic         
 {
     font-style: italic;
 }
 
-.title-box
+.title-box  /*Dimensions image 2*/
 {
     max-width: 634px;
     max-height: 75px;
@@ -1105,7 +1100,7 @@ h4 {
     margin: auto;
 }
 
-.title2-box
+.title2-box     /*Dimensions image 3*/
 {
     max-width: 476px;
     max-height: 99px;
@@ -1114,8 +1109,20 @@ h4 {
     margin: auto;
 }
 
-.icon-md
+.icon-md        /*taille des liens réseaux sociaux agrandis*/
 {
     width: 40px;
     height: 40px;
+}
+
+/*modif bouton contact*/
+
+.btn-atomic-tangerine {
+    background: #000000;
+    color: #ffffff!important;
+}
+
+.btn-atomic-tangerine:hover {
+    background: #9b9b9b!important;
+    color: #000000!important;
 }
