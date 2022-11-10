@@ -1118,6 +1118,11 @@ a:focus, button:focus
     border-radius: 40px;
 }
 
+button:focus
+{
+    border-radius: 10px;
+}
+
 a:focus img 
 {
     border-radius: 40px;
